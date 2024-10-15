@@ -1,0 +1,12 @@
+.card{
+    display: flex;
+    padding: 45px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+p{
+    color: var(--Transparent-white-paragraph);
+    font-weight: 300;
+    line-height: 28px;
+}

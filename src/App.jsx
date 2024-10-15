@@ -12,7 +12,6 @@ function App() {
           "https://670023414da5bd2375534f66.mockapi.io/api/v1/cars"
         );
         setCards(response);
-        console.log("Cards obtenidas :D",cards);
       } catch (error) {
         console.log("Error al solicitar las tarjetas");
       }
@@ -20,9 +19,13 @@ function App() {
     fetchData();
   }, []);
   return (
-  <>
-    <Card card={cards[0]}/>
-  </>
+    <>
+      <section className="principal">
+        {cards.map((card) => (
+          <Card key={card.id} card={card} />
+        ))}
+      </section>
+    </>
   );
 }
 

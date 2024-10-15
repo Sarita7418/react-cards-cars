@@ -1,0 +1,11 @@
+img{
+    margin-bottom: 35px;
+}
+
+span{
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    color: var(--Very-light-gray-background-headings-buttons);
+    font-weight: 600;
+    margin-bottom: 8px;
+}

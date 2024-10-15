@@ -9,7 +9,7 @@
 
   /*Neutral*/
 
-  --Transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
+  --Transparent-white-paragraph: hsla(0, 0%, 100%, 0.55);
   --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
 }
 
@@ -20,3 +20,21 @@ body{
 }
 
 /*Estilos correspondientes*/
+
+.orange{
+  background-color: var(--Bright-orange);
+}
+
+.blue{
+  background-color: var(--Dark-cyan);
+}
+
+.green{
+  background-color: var(--Very-dark-cyan);
+}
+
+.principal{
+  overflow: hidden;
+  margin: 80px 25px;
+  border-radius: 10px;
+}
